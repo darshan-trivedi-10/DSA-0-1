@@ -81,9 +81,10 @@ There are different bitwise operations used in the bit manipulation. These bit o
 - https://leetcode.com/problems/single-number-ii/
 - print all subsequences of a string using bitmasking
 - https://leetcode.com/problems/score-after-flipping-matrix/
-- https://leetcode.com/problems/triples-with-bitwise-and-equal-to-zero/
 - https://leetcode.com/problems/bitwise-and-of-numbers-range/
 - https://leetcode.com/problems/total-hamming-distance/
 - https://leetcode.com/problems/decode-xored-permutation/
+### Level 2
 - https://leetcode.com/problems/find-the-shortest-superstring/
 - https://leetcode.com/problems/find-the-shortest-superstring/
+- https://leetcode.com/problems/triples-with-bitwise-and-equal-to-zero/
