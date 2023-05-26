@@ -4,8 +4,8 @@
 - https://leetcode.com/problems/string-to-integer-atoi/
 - https://leetcode.com/problems/powx-n/
 - https://leetcode.com/problems/count-good-numbers/
-- https://practice.geeksforgeeks.org/problems/sort-a-stack/1
-- https://practice.geeksforgeeks.org/problems/reverse-a-stack/1
+- https://practice.geeksforgeeks.org/problems/sort-a-stack/1 - stack
+- https://practice.geeksforgeeks.org/problems/reverse-a-stack/1 - stack
 
 ## Subsequences Pattern
 - https://practice.geeksforgeeks.org/problems/generate-all-binary-strings/1
