@@ -32,3 +32,8 @@
 - https://leetcode.com/problems/expression-add-operators/
 
 
+
+## Need to be Done
+- https://leetcode.com/problems/permutation-sequence/
+- https://practice.geeksforgeeks.org/problems/m-coloring-problem-1587115620/1#
+- Word Break (print all ways)	
