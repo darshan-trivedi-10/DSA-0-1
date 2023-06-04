@@ -11,8 +11,8 @@
 - https://leetcode.com/problems/linked-list-cycle-ii/
 - https://practice.geeksforgeeks.org/problems/flattening-a-linked-list/1
 - https://leetcode.com/problems/rotate-list/description/
-- https://leetcode.com/problems/reverse-nodes-in-k-group/
 
 ## Revisit
 - https://leetcode.com/problems/copy-list-with-random-pointer/
+- https://leetcode.com/problems/reverse-nodes-in-k-group/
 - https://leetcode.com/problems/lru-cache/
