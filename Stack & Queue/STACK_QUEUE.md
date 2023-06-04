@@ -1,5 +1,6 @@
 # Stack & Queue
 
+## P-1
 - Implement Queue Using Array
 - Implement Queue using Arrays
 - https://leetcode.com/problems/implement-stack-using-queues/
@@ -7,6 +8,9 @@
 - https://leetcode.com/problems/valid-parentheses/
 - https://leetcode.com/problems/next-greater-element-ii
 - https://www.codingninjas.com/codestudio/problems/sort-a-stack_985275
+
+## P-2
+
 - https://www.interviewbit.com/problems/nearest-smaller-element/
 - https://leetcode.com/problems/lru-cache/
 - https://leetcode.com/problems/lfu-cache/
