@@ -1,25 +1,25 @@
 /*
 Queue : First in First Out
       : Ex : Ticked Booking Line
+
+Feature : push, pop, front, isEmpty - O(1)
 */
 
 template <typename T>
 class Queue
 {
 private:
-    int *arr;
+    T *arr;
     int cs, ms;
-    int front = 0;
-    int rear;
+    int front, rear;
 
 public:
-    Queue(int default_size = 1000000)
+    Queue(int default_size = 5)
     {
         ms = default_size;
+        arr = new T[default_size];
         cs = 0;
-        arr = new int[ms];
-        front = 0;
-        rear = -1;
+        front = 0, rear = ms - 1;
     }
 
     bool full()
@@ -27,32 +27,33 @@ public:
         return cs == ms;
     }
 
-    bool empty()
-    {
-        return cs == 0;
-    }
-
     void push(T data)
     {
         if (!full())
         {
-            rear = ((rear + 1) % ms);
+            // take the rear to the next index
+            rear = (rear + 1) % ms;
             arr[rear] = data;
             cs++;
         }
-        else
+    }
+
+    void isEmpty()
+    {
+        return cs == 0;
+    }
+
+    void pop()
+    {
+        if (!isEmpty())
         {
-            cout << "Queue if Full\n";
+            front = (front + 1) % ms;
+            cs--;
         }
     }
 
     T front()
     {
-        return arr[front];
-    }
-
-    int size()
-    {
-        return cs;
+        return arr[rear];
     }
 };
