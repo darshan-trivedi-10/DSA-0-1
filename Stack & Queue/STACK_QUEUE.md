@@ -1,7 +1,7 @@
 # Stack & Queue
 
 ## P-1
-- Implement Queue Using Array
+- Implement Stack Using Array
 - Implement Queue using Arrays
 - https://leetcode.com/problems/implement-stack-using-queues/
 - https://leetcode.com/problems/implement-queue-using-stacks/
