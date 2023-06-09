@@ -15,7 +15,6 @@
 - https://leetcode.com/problems/lru-cache/
 - https://leetcode.com/problems/sliding-window-maximum/
 - https://leetcode.com/problems/min-stack/
-- https://leetcode.com/problems/rotting-oranges/
 - https://leetcode.com/problems/online-stock-span/
 - https://www.geeksforgeeks.org/find-the-maximum-of-minimums-for-every-window-size-in-a-given-array/
 - https://leetcode.com/problems/find-the-celebrity/
