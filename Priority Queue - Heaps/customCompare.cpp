@@ -1,4 +1,5 @@
 #include <iostream>
+#include <algorithm>
 #include <queue>
 using namespace std;
 
@@ -8,19 +9,23 @@ public:
     bool operator()(int a, int b)
     {
         // return a > b;
-        return a < b;
+        return a > b;
     }
 };
+
+bool cmp(int a, int b)
+{
+    return a > b;
+}
 
 int main()
 {
     int arr[] = {10, 15, 20, 13, 6, 90};
     int n = sizeof(arr) / sizeof(int);
-    // Max Heap.
-    // priority_queue<int> heap;
-    // Min Heap
+
+    priority_queue<int> heap;
+
     // priority_queue<int, vector<int>, Compare> heap;
-    priority_queue<int, vector<int>, greater<int>> heap;
     for (int i = 0; i < n; i++)
     {
         heap.push(arr[i]);
@@ -30,6 +35,15 @@ int main()
         cout << heap.top() << " ";
         heap.pop();
     }
+
+    cout << endl;
+
+    sort(arr, arr + n, cmp);
+    for (int i = 0; i < n; i++)
+    {
+        cout << arr[i] << " ";
+    }
+    cout << endl;
 
     return 0;
 }
